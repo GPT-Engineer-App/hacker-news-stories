@@ -34,7 +34,7 @@ const Index = () => {
     <Container centerContent maxW="container.md" py={8}>
       <VStack spacing={4} align="stretch">
         <Heading as="h1" size="xl" textAlign="center" mb={6} color="hn.500">
-          Latest Hacker News Stories
+          Latest Hacker News CLIENT
         </Heading>
         {loading ? (
           <Spinner size="xl" />
